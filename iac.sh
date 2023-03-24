@@ -33,9 +33,9 @@ chown root:GRP_ADM /adm
 chown root:GRP_VEN /ven
 chown root:GRP_SEC /sec
 
-chmod 777 /adm
-chmod 777 /ven
-chmod 777 /sec
+chmod 770 /adm
+chmod 770 /ven
+chmod 770 /sec
 chmod 777 /publico
 
 echo "Fim...."
